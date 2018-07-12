@@ -126,9 +126,9 @@
 5. 多数情况下，用条件运算符（   ?:   ）写成的表达式比 if else 语句更简洁。
 6. continue 可用作占位符:
 
-![img](https://github.com/ischenlei/C/blob/master/images/1/Image5.png)switch 
+![img](https://github.com/ischenlei/C/blob/master/images/1/Image5.png)
 
-在圆括号中的测试表达式的值应该是一个整数值（包括char类型）。case标签必须是整数类型（包括char类型）的常量或整型常量表达式（即，表达式中只包含整型常量）。
+switch在圆括号中的测试表达式的值应该是一个整数值（包括char类型）。case标签必须是整数类型（包括char类型）的常量或整型常量表达式（即，表达式中只包含整型常量）。
 7. 不能用变量作为 case 标签。
 8. goto语句：使程序控制跳转至相应标签语句。标签名遵循变量命名规则。标签语句可以出现在 goto 的前面或后面。（应避免使用goto）
 
