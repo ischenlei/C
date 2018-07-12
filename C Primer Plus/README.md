@@ -1,5 +1,4 @@
-# C primer Plus 学习
-代码以及笔记
+# C primer Plus 笔记
 
 ### 第3章 数据和C
 
