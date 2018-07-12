@@ -41,7 +41,7 @@
 
 ##### 5.2.5 除法运算符：/
 
-##### 5.2.6 运算符优先级：![img](http://github.com/ischenlei/C/raw/master/images/1/Image1.png)  
+##### 5.2.6 运算符优先级：![img](http://github.com/ischenlei/C/blob/master/images/1/Image1.png)  
 C
 ##### 5.3.1 sizeof运算符和size_t类型
 
