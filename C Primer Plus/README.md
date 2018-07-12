@@ -103,7 +103,9 @@
 1. 比较浮点数时，尽量只使用<和>。因为浮点数的舍入误差会导致在逻辑上应该相等的两数却不相等。
 2. fabs()函数（声明在math.h头文件中）可以方便地比较浮点数，该函数返回一个浮点值的绝对值。
 3. 关系运算符的优先级比算术运算符（包括+和-）低，比赋值运算符高。
+
 ![img](https://github.com/ischenlei/C/blob/master/images/1/Image3.png)
+
 4. 简单的关系表达式由关系运算符及其运算对象组成。如果关系为真，关系表达式的值为1；如果关系为假，关系表达式的值为0。
 5. 逗号运算符：把两个表达式连接成一个表达式，并保证最左边的表达式最先求值。逗号运算符通常在for循环头的表达式中用于包含更多的信息。整个逗号表达式的值是逗号右侧表达式的值。
 6. 如何选择循环：首先，确定是需要入口条件循环还是出口条件循环。通常，入口条件循环用得比较多，有几个原因。（其一，一般原则是在执行循环之前测试条件比较好。其二，测试放在循环的开头，程序的可读性更高）
@@ -113,18 +115,25 @@
 
 1. ctype.h系列的字符函数为创建以分类字符为基础的测试表达式提供了便捷的工具。
 2. ctype.h头文件中的字符测试函数
+
 ![img](https://github.com/ischenlei/C/blob/master/images/1/Image7.png)
+
 3. ctype.h头文件中的字符映射函数
+
 ![img](https://github.com/ischenlei/C/blob/master/images/1/Image4.png) 
+
 4. if else 语句可用于二选一的情况。在 else 后面使用另一个 if 语句形成 else if，可构造多选一的结构。
 5. 多数情况下，用条件运算符（   ?:   ）写成的表达式比 if else 语句更简洁。
 6. continue 可用作占位符:
+
 ![img](https://github.com/ischenlei/C/blob/master/images/1/Image5.png)switch 
+
 在圆括号中的测试表达式的值应该是一个整数值（包括char类型）。case标签必须是整数类型（包括char类型）的常量或整型常量表达式（即，表达式中只包含整型常量）。
 7. 不能用变量作为 case 标签。
 8. goto语句：使程序控制跳转至相应标签语句。标签名遵循变量命名规则。标签语句可以出现在 goto 的前面或后面。（应避免使用goto）
 
 ![img](https://github.com/ischenlei/C/blob/master/images/1/Image6.png)
+
 9. 一种goto的用法——出现问题时从一组嵌套循环中跳出。 
 
 ### 第8章 字符输入/输出和输入验证
