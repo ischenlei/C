@@ -41,8 +41,8 @@
 
 ##### 5.2.5 除法运算符：/
 
-##### 5.2.6 运算符优先级：![img](http://github.com/ischenlei/C/blob/master/images/1/Image1.png)  
-C
+##### 5.2.6 运算符优先级：![img](https://github.com/ischenlei/C/blob/master/images/1/Image1.png)  
+
 ##### 5.3.1 sizeof运算符和size_t类型
 
 1. C 语言规定，sizeof 返回size_t 类型的值。这是一个无符号整数类型。
