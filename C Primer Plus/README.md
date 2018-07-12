@@ -112,8 +112,10 @@
 ### 第7章 C控制语句：分支和跳转
 
 1. ctype.h系列的字符函数为创建以分类字符为基础的测试表达式提供了便捷的工具。
-2. ctype.h头文件中的字符测试函数![img](https://github.com/ischenlei/C/blob/master/images/1/Image7.png)
-3. ctype.h头文件中的字符映射函数![img](https://github.com/ischenlei/C/blob/master/images/1/Image4.png) 
+2. ctype.h头文件中的字符测试函数
+![img](https://github.com/ischenlei/C/blob/master/images/1/Image7.png)
+3. ctype.h头文件中的字符映射函数
+![img](https://github.com/ischenlei/C/blob/master/images/1/Image4.png) 
 4. if else 语句可用于二选一的情况。在 else 后面使用另一个 if 语句形成 else if，可构造多选一的结构。
 5. 多数情况下，用条件运算符（   ?:   ）写成的表达式比 if else 语句更简洁。
 6. continue 可用作占位符:
@@ -121,6 +123,7 @@
 在圆括号中的测试表达式的值应该是一个整数值（包括char类型）。case标签必须是整数类型（包括char类型）的常量或整型常量表达式（即，表达式中只包含整型常量）。
 7. 不能用变量作为 case 标签。
 8. goto语句：使程序控制跳转至相应标签语句。标签名遵循变量命名规则。标签语句可以出现在 goto 的前面或后面。（应避免使用goto）
+
 ![img](https://github.com/ischenlei/C/blob/master/images/1/Image6.png)
 9. 一种goto的用法——出现问题时从一组嵌套循环中跳出。 
 
